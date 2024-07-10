@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate</title>
+    <link rel="stylesheet" href="website2.css">
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="Website html.html">Home</a></li>
+                <li><a href="Website html.html#about">More About</a></li> 
+                <li><a href="Website html.html#gallery">Gallery</a></li>
+                <li><a href="Website html.html#journey">Journey</a></li>
+                <li><a href="join.html" >Join Us</a></li>
+                <li><a href="donate.html"> Donate Us</a></li>
+                <li><a href="Website html.html#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section class="donate-section">
+            <h1>Support Our Cause</h1>
+            <p>Your donation helps us empower youth in Rwanda with the skills and knowledge they need to secure employment and improve their lives.</p>
+            <div class="donation-options">
+                <h2>Choose an amount to donate</h2>
+                <form action="https://your-payment-gateway.com" method="POST">
+                    <label>
+                        <input type="radio" name="donation-amount" value="50">
+                        $50 - Provide school supplies for one child
+                    </label>
+                    <label>
+                        <input type="radio" name="donation-amount" value="100">
+                        $100 - Cover a month of vocational training for one student
+                    </label>
+                    <!-- Add more donation tiers as needed -->
+                    <label>
+                        <input type="radio" name="donation-amount" value="custom">
+                        Custom Amount
+                    </label>
+                    <input type="number" name="custom-amount" placeholder="Enter custom amount">
+                    <button type="submit">Donate Now</button>
+                </form>
+            </div>
+            <div class="impact-stories">
+                <h2>Your Impact</h2>
+                <p>Read about how your donations have made a difference in the lives of our beneficiaries.</p>
+                <!-- Include impact stories and photos here -->
+            </div>
+        </section>
+        <button onclick="goHome()" class="home-button">Go Back to Home</button>
+
+        <script>
+            function goHome() {
+                window.location.href = 'website html.html'; // Change 'index.html' to your home page URL
+            }
+        </script>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

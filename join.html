@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join Us</title>
+    <link rel="stylesheet" href="website2.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Website html.html">Home</a></li>
+            <li><a href="Website html.html#about">More About</a></li> 
+            <li><a href="Website html.html#gallery">Gallery</a></li>
+            <li><a href="Website html.html#journey">Journey</a></li>
+            <li><a href="join.html" >Join Us</a></li>
+            <li><a href="donate.html"> Donate Us</a></li>
+            <li><a href="Website html.html#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="join-section">
+            <h1>Become Part of Our Mission</h1>
+            <p>Join us in our efforts to empower youth with the skills and opportunities they need to succeed.</p>
+            <div class="program-details">
+                <h2>Our Programs</h2>
+                <p>We offer a variety of programs designed to equip young people with vocational skills and entrepreneurial knowledge.</p>
+                <!-- Detail different programs and how to join -->
+            </div>
+            <div class="application-form">
+                <h2>Apply Now</h2>
+                <form action="submit-application.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="program">Select Program:</label>
+                    <select id="program" name="program">
+                        <option value="vocational-training">Vocational Training</option>
+                        <option value="entrepreneurial-guidance">Entrepreneurial Guidance</option>
+                        <!-- Add more programs as needed -->
+                    </select>
+                    <button type="submit">Join Us</button>
+                </form>
+            </div>
+            <div class="testimonials">
+                <h2>Testimonials</h2>
+                <!-- Include testimonials from current or past participants -->
+            </div>
+        </section>
+        <button onclick="goHome()" class="home-button">Go Back to Home</button>
+
+        <script>
+            function goHome() {
+                window.location.href = 'website html.html'; // Change 'index.html' to your home page URL
+            }
+        </script>
+    </main>
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>
